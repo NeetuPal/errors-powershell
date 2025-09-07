@@ -1,8 +1,6 @@
 # errors-powershell
 
-### PS C:\Users\Naresh Pal\Downloads> Get-ChildItem -Path C:\Users\Naresh Pal\Downloads -Recurse -Directory -Filter "Projects*" -ErrorAction SilentlyContinue
-Get-ChildItem : A positional parameter cannot be found that accepts argument 'Pal\Downloads'.
-At line:1 char:1
+### In PowerShell, you need to wrap such paths in quotes, otherwise it treats Pal\Downloads as a separate argument.
 + Get-ChildItem -Path C:\Users\Naresh Pal\Downloads -Recurse -Directory ...
 + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     + CategoryInfo          : InvalidArgument: (:) [Get-ChildItem], ParameterBindingException
