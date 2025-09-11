@@ -6,3 +6,6 @@
     + CategoryInfo          : InvalidArgument: (:) [Get-ChildItem], ParameterBindingException
     + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
 
+### Manually download zip and follow commands one by one
+âŒ Download failed: File is not a valid ZIP.
+
