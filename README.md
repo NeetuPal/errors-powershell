@@ -9,3 +9,6 @@
 ### Manually download zip and follow commands one by one
 âŒ Download failed: File is not a valid ZIP.
 
+### Requested registry access is not allowed.
+Run script as Administrator
+
